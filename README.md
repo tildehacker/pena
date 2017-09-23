@@ -28,3 +28,14 @@ Help for Windows
 
 		set PATH=C:\Program Files (x86)\swipl\bin;%PATH%
 		pena questions_sample.json database.json localhost 5000
+
+Scrots
+------
+
+![Exception](scrots/exception.png?raw=true "Exception")
+![Home](scrots/home.png?raw=true "Home")
+![Found](scrots/play_found.png?raw=true "Found")
+![Guess](scrots/play_guess.png?raw=true "Guess")
+![Question](scrots/play_question.png?raw=true "Question")
+![Submit](scrots/play_submit.png?raw=true "Submit")
+![Success](scrots/play_success.png?raw=true "Success")

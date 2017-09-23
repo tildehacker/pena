@@ -1,0 +1,104 @@
+body {
+	background-color: #7bc4d3;
+	font-family: sans-serif;
+	min-width: 500px;
+	color: white;
+	margin: 0;
+}
+main {
+	position: relative;
+}
+.message {
+	position: absolute;
+	font-weight: bold;
+	font-size: 18pt;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+}
+.illustration {
+	display: block;
+	max-width: 500px;
+	width: 100%;
+	margin: auto;
+}
+.yes_or_no_buttons {
+	position: absolute;
+	font-weight: bold;
+	font-size: 32pt;
+	color: white;
+	text-decoration: none;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	outline: none;
+}
+.yes_button {
+	margin-top: 143px;
+	margin-left: -116px;
+}
+.no_button {
+	margin-top: 112px;
+	margin-left: 112px;
+}	
+#accept_answer,
+#reject_answer {
+	cursor: pointer;
+}
+input[data-ng-model="characterName"],
+input[data-ng-model="characterName"]:focus {
+	background: transparent;
+	border: solid 2px white;
+	font-size: 18pt;
+	color: white;
+	width: 200px;
+	outline: none;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+}
+footer nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+footer nav ul li {
+	display: inline;
+}
+footer nav ul li a:link,
+footer nav ul li a:visited,
+footer nav ul li a:hover,
+footer nav ul li a:active {
+	color: white;
+	text-decoration: none;
+	font-size: 14pt;
+}
+footer #vectors_copyright a:link,
+footer #vectors_copyright a:visited,
+footer #vectors_copyright a:hover,
+footer #vectors_copyright a:active {
+	color: white;
+	font-size: 8pt;
+	font-style: italic;
+	text-decoration: none;
+}
+.about {
+	width: 500px;
+	padding: 10px 10px 50px 10px;
+	margin: auto;
+}
+.about a:link,
+.about a:visited,
+.about a:hover,
+.about a:active {
+	color: white;
+	font-style: italic;
+	text-decoration: none;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html data-ng-app="penaApp">
+	<head>
+		<meta charset="utf-8">
+		<title data-ng-bind="title">Loading...</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<base href="/">
+
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<main>
+			<div data-ng-view></div>
+		</main>
+		<footer>
+			<nav>
+				<ul>
+					<li><a href="/">/home</a></li>
+					<li><a href="/play">/play</a></li>
+					<li><a href="/about">/about</a></li>
+				</ul>
+			</nav>
+			<div id="vectors_copyright">
+				<a href="http://www.freepik.com/free-photos-vectors/business" target="_blank">Business vector designed by Kraphix - Freepik.com</a>
+			</div>
+		</footer>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js"></script>
+		<script src="app/module.js"></script>
+		<script src="app/routes.js"></script>
+		<script src="app/home/homeController.js"></script>
+		<script src="app/play/askService.js"></script>
+		<script src="app/play/tellService.js"></script>
+		<script src="app/play/playController.js"></script>
+		<script src="app/about/aboutController.js"></script>
+		<script src="app/notfound/notfoundController.js"></script>
+	</body>
+</html>

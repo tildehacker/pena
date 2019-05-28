@@ -11,7 +11,7 @@ setup(
     keywords="artificial intelligence prolog game",
     packages=['pena'],
     install_requires=[
-        'pyswip_alt', 'flask', 'tinydb', 'jsonschema', 'flask-cors'],
+        'pyswip_alt==0.2.3', 'flask==0.12.2', 'tinydb==3.5.0', 'jsonschema==2.6.0', 'flask-cors==3.0.3'],
     extras_require={
         'dev': ['pep8'],
     },
